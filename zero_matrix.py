@@ -48,18 +48,20 @@ def change_zero(matrix):
     for i in range(row_len):
         if matrix[i][0] == 0:
             first_col = 1
+            
 
-    if row_len == 1 or col_len == 1:
-        if first_row == 1 and row_len == 1:
-            for i in range(col_len):
-                matrix[0][i] = 0
-            return
-        elif first_col == 1 and col_len == 1:
-            for i in range(row_len):
-                matrix[i][0] = 0
-            return
-        else:
-            return
+#     if row_len == 1 or col_len == 1:
+#         if first_row == 1 and row_len == 1:
+#             for i in range(col_len):
+#                 matrix[0][i] = 0
+#             return
+#         elif first_col == 1 and col_len == 1:
+#             for i in range(row_len):
+#                 matrix[i][0] = 0
+#             return
+#         else:
+#             return
+
 
     for i in range(row_len):
         for j in range(col_len):
