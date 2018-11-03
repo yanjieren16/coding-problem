@@ -1,0 +1,14 @@
+“”“
+Remove Dups: Write code to remove duplicates from an unsorted linked list.
+FOLLOW UP
+How would you solve this problem if a temporary buffer is not allowed
+”“”
+
+
+# Using a simple hash table
+# Time complexity: O(N)
+# Space complexity: O(N)
+
+# Using two pointers to iterate
+# Time complexity: O(N2)
+# Space complexity: O(1)
